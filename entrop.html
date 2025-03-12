@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EntropX - Accueil</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        /* HEADER */
+        .header {
+            background-color: #FE7A36;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            position: relative;
+        }
+
+
+        /* NAVIGATION */
+        .nav {
+            display: flex;
+            justify-content: center;
+            background-color: #E5E5E5;
+            padding: 10px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #888;
+            font-size: 18px;
+            padding: 10px 20px;
+            font-style: italic;
+        }
+
+        .nav a:hover {
+            color: black;
+            font-weight: bold;
+        }
+
+        /* CONTENU */
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+
+        h1, h2, h3 {
+            color: #D35400;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .team-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .team-member {
+            flex: 1 1 45%;
+            margin: 10px;
+            padding: 10px;
+            background: #f9f9f9;
+            border-radius: 5px;
+        }
+        /* ARTICLES */
+        .article-list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .article-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            width: 80%;
+            background: #fff;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+
+        .article-item img {
+            width: 100px;
+            height: auto;
+            margin-right: 15px;
+            border-radius: 5px;
+        }
+
+        .article-item a {
+            font-size: 18px;
+            text-decoration: none;
+            color: #D35400;
+            font-weight: bold;
+        }
+
+        .article-item a:hover {
+            text-decoration: underline;
+        }
+        .header img {
+    height: 35px; /* Ajuste la taille du logo */
+    vertical-align: middle;
+    margin-left: -5px; 
+}
+
+
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <div class="header">
+    ENTROP <img src="logo.png" alt="Logo ">
+</div>
+
+
+    <!-- NAVIGATION -->
+    <div class="nav">
+        <a href="#accueil">Accueil</a>
+        <a href="#articles">Articles</a>
+        <a href="#contact">Contactez-nous</a>
+    </div>
+
+    <!-- CONTENU ACCUEIL -->
+    <div class="container" id="accueil">
+        <h1>Présentation du Magazine</h1><BR>
+        
+        <div class="section">
+            <h2>🎯 Notre Mission</h2>
+            <p>
+                APPRENDRE à gérer des projets éditoriaux et médiatiques d’un nouveau genre.<br>
+            
+                COMPRENDRE le fonctionnement d’un média et son rôle en cybersécurité et cryptographie.<br>
+                
+                DEVENIR ACTEURd’un projet ambitieux, en explorant des sujets techniques et en les rendant accessibles.<br>
+                
+               FAIRE VIVRE et CONNAÎTRE nos Masters à travers des articles captivants !
+            </p>
+        </div>
+
+<div class="section">
+    
+            <h2>📢 L'équipe 2024 - Fondateurs </h2>
+            <h3>🎙️ Rédacteurs en Chef</h3>
+            <div class="team-section">
+                <div class="team-member"><span class="highlight">COUPRY Baptiste </span> - Rédacteur en Chef</div>
+                <div class="team-member"><span class="highlight">DRON Jérémy </span> - Rédacteur en Chef</div>
+            </div>
+
+            <h3>✍️ Rédacteurs</h3>
+            <div class="team-section">
+                <div class="team-member"><span class="highlight">BELHAJ Aymane</span> - Actu Cyber</div>
+                <div class="team-member"><span class="highlight"> COUPRY Baptiste</span> - Article Thématique</div>
+                <div class="team-member"><span class="highlight"> DRON Jérémy</span> - Chercheurs Phares</div>
+                <div class="team-member"><span class="highlight">DUVERGER Kévin</span> - Actu Crypto</div>
+                <div class="team-member"><span class="highlight">FRAGA Anthony </span> - Ma-Thématique</div>
+                <div class="team-member"><span class="highlight">NDIONGUE Mohamed Lamine</span> - IA </div>
+                <div class="team-member"><span class="highlight"> SAIU Olga</span> - GéeoCrypto </div>
+                <div class="team-member"><span class="highlight">VAN DER PLOEG Eléonore</span> - Jeux</div>
+            </div>
+
+            <h3>🎨 Équipe Technique & Production</h3>
+            <div class="team-section">
+                <div class="team-member"><span class="highlight">COUPRY Baptiste</span> - Community Manager</div>
+                <div class="team-member"><span class="highlight">DRON Jérémy</span> - Designer & Webmaster</div>
+                <div class="team-member"><span class="highlight">DUVERGER Kévin</span> - Webmaster</div>
+                <div class="team-member"><span class="highlight">FRAGA Anthony</span> - Designer</div>
+            </div>
+        </div>
+     
+        <div class="section">
+            <h2>📢 L'équipe 2025 </h2>
+            <h3>🎙️ Rédacteurs en Chef</h3>
+            <div class="team-section">
+                <div class="team-member"><span class="highlight">CHARHIA Mohamed </span> - Rédacteur en Chef</div>
+                <div class="team-member"><span class="highlight">DUVERGER Kévin </span> - Rédacteur en Chef</div>
+            </div>
+
+            <h3>✍️ Rédacteurs</h3>
+            <div class="team-section">
+                <div class="team-member"><span class="highlight"> CHARHIA Mohamed</span> - Ça chiffre & Article Thématique</div>
+                <div class="team-member"><span class="highlight">DUVERGER Kévin </span> - Actu Crypto</div>
+                <div class="team-member"><span class="highlight">ELACERI Imane </span> - Ma-Thématique</div>
+                <div class="team-member"><span class="highlight">ESPICIER Anaïs </span> - GéoCrypto</div>
+                <div class="team-member"><span class="highlight">RAIS Ahmed </span> - Actu Crypto</div>
+                <div class="team-member"><span class="highlight">SKALANTE Ali </span> - Actu Cyber</div>
+                <div class="team-member"><span class="highlight">TAIBI Kenza </span> - Jeux</div>
+            </div>
+
+            <h3>🎨 Équipe Technique & Production</h3>
+            <div class="team-section">
+                <div class="team-member"><span class="highlight">ELACERI Imane </span> - Designer</div>
+                <div class="team-member"><span class="highlight">RAIS Ahmed </span> - Webmaster</div>
+                <div class="team-member"><span class="highlight">SKALANTE Ali </span> - Community Manager</div>
+                <div class="team-member"><span class="highlight">TAIBI Kenza </span> - Designer</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📖 Éditeur</h2>
+            <p><span class="highlight">Association Team Cryptis</span></p>
+        </div>
+        
+
+    </div>
+    
+     <!-- SECTION ARTICLES -->
+    <div class="container" id="articles">
+        <h2>📰 Articles </h2><BR>
+        <div class="article-list">
+            <div class="article-item">
+                <img src="article1.jpg" alt="N° 1">
+                <a href="https://drive.google.com/drive/u/2/folders/1FUvKYG6MOTt0-umcQRV0M8DeqaALKV2m?fbclid=PAZXh0bgNhZW0CMTEAAaYahv6oV_qTTARvJKaCn9_IaWXZcls3dp6erjk--p4lJmMJtwXelli6OdU_aem_3qfJqrIy4ZgBOEPBtkimvw">L'histoire des sciences par la femme </a>
+            </div>
+            <div class="article-item">
+                <img src="article2.jpg" alt="N° 2">
+                <a href="https://drive.google.com/drive/u/2/folders/1FUvKYG6MOTt0-umcQRV0M8DeqaALKV2m?fbclid=PAZXh0bgNhZW0CMTEAAaYahv6oV_qTTARvJKaCn9_IaWXZcls3dp6erjk--p4lJmMJtwXelli6OdU_aem_3qfJqrIy4ZgBOEPBtkimvw">La guerre des OS : Lequel est le plus sécurisé ?</a>
+            </div>
+            <div class="article-item">
+                <img src="article3.jpg" alt="N° 3">
+                <a href="https://drive.google.com/drive/u/2/folders/1FUvKYG6MOTt0-umcQRV0M8DeqaALKV2m?fbclid=PAZXh0bgNhZW0CMTEAAaYahv6oV_qTTARvJKaCn9_IaWXZcls3dp6erjk--p4lJmMJtwXelli6OdU_aem_3qfJqrIy4ZgBOEPBtkimvw">Sécurité au soleil</a>
+            </div>
+            <div class="article-item">
+                <img src="article4.jpg" alt="N° 4">
+                <a href="https://drive.google.com/drive/u/2/folders/1FUvKYG6MOTt0-umcQRV0M8DeqaALKV2m?fbclid=PAZXh0bgNhZW0CMTEAAaYahv6oV_qTTARvJKaCn9_IaWXZcls3dp6erjk--p4lJmMJtwXelli6OdU_aem_3qfJqrIy4ZgBOEPBtkimvw">Les fêtes de fin d'années </a>
+            </div>
+            <div class="article-item">
+                <img src="article5.jpg" alt="N° 5">
+                <a href="https://drive.google.com/drive/u/2/folders/1FUvKYG6MOTt0-umcQRV0M8DeqaALKV2m?fbclid=PAZXh0bgNhZW0CMTEAAaYahv6oV_qTTARvJKaCn9_IaWXZcls3dp6erjk--p4lJmMJtwXelli6OdU_aem_3qfJqrIy4ZgBOEPBtkimvw">Le hacking : Tout un art</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECTION CONTACT -->
+    <div class="container" id="contact">
+        <h2>📩 Contactez-nous</h2>
+        <p>Pour toute question ou suggestion, contactez-nous à <br>
+       Email: <a href="mailto:entropmag@gmail.com">entropmag@gmail.com</a><br>
+       Intagram : <a href="https://www.instagram.com/entropx_mag/">entropx_mag</a><br>
+       Linkedin : <a href="https://www.linkedin.com/company/entropxmag/posts/?feedView=all">Entropx</a>
+       </p>
+    </div>
+</body>
+</html>
